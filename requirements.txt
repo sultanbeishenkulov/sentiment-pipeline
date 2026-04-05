@@ -1,0 +1,27 @@
+# Reddit API
+praw==7.7.1
+
+# Kafka
+kafka-python==2.0.2
+
+# NLP / ML
+transformers==4.40.0
+torch==2.2.0
+datasets==2.18.0
+scikit-learn==1.4.0
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.29
+
+# API
+fastapi==0.111.0
+uvicorn==0.29.0
+
+# Dashboard
+streamlit==1.33.0
+plotly==5.20.0
+requests==2.31.0
+
+# Utilities
+python-dotenv==1.0.1
