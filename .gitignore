@@ -53,4 +53,11 @@ Thumbs.db
 # Coverage / testing
 .coverage
 htmlcov/
-.pytest_cache/
+.pytest_cache/model/training_logs/
+
+# ML artifacts — ignore big/regenerable model files, keep small results
+model/artifacts/*
+!model/artifacts/.gitkeep
+!model/artifacts/eval_report.txt
+!model/artifacts/confusion_matrix.png
+model/training_logs/

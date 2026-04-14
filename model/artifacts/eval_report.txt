@@ -1,0 +1,24 @@
+Test-set evaluation
+===================
+Accuracy:    0.6674
+F1 (macro):  0.6622
+F1 (weight): 0.6669
+
+Per-class metrics
+-----------------
+              precision    recall  f1-score   support
+
+    negative     0.7524    0.5685    0.6476      3972
+     neutral     0.6730    0.6972    0.6849      5937
+    positive     0.5748    0.7583    0.6540      2375
+
+    accuracy                         0.6674     12284
+   macro avg     0.6668    0.6746    0.6622     12284
+weighted avg     0.6797    0.6674    0.6669     12284
+
+Confusion matrix (rows=true, cols=pred)
+---------------------------------------
+Labels: ['negative', 'neutral', 'positive']
+[[2258 1474  240]
+ [ 706 4139 1092]
+ [  37  537 1801]]
